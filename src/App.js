@@ -1,13 +1,13 @@
 import './App.css';
 
 import Posts from './components/Posts';
+import PostForm from './components/PostForm';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+        <PostForm />
         <Posts />
-      </header>
     </div>
   );
 }
